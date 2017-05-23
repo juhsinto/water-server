@@ -3,7 +3,7 @@ Water Fountain API - serves JSON formatted data ; Processed from https://data.me
 
 ## Available API calls
 
-#### /getFountains
+#### jacintomendes.com:3000/getFountains
 `POST` request
 parameters required - 
 param1: longitude
@@ -24,7 +24,7 @@ JSON string containing 10 nearest fountains from given GPS coordinates in the fo
     
 
 
-#### /getall
+#### jacintomendes.com:3000/getall
 `GET` Request
 ###### Returns: 
 JSON string containing ALL (274) fountains in the format:  "_id", "name", "street", "loc (long, lat)"
